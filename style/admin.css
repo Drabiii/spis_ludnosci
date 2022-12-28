@@ -1,0 +1,60 @@
+body {
+    background-color: lightblue;
+    font-family: Calibri;
+}
+table {
+    margin: auto;
+    table-layout: auto; width: 70%;
+}
+td, th { 
+    border: 1px solid rgb(88, 86, 86); 
+    font-size: 18px;
+    text-align: center;
+}
+.gora {
+    font-size: 25px;
+    text-align: center;
+    float: none;
+}
+::-webkit-input-placeholder { color:black; }
+::-moz-placeholder { color:black; } /* firefox 19+ */
+:-ms-input-placeholder { color:black; } /* ie */
+
+.editbutton {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+input[type="text"] {
+    background-color: white;
+    height: 25px;
+}
+form {
+    font-size: 20px;
+    text-align: center;
+}
+input[type="submit"] {
+    font-size: 15px;
+    background-color: lightseagreen;
+    border-block-width: 3px;
+}
+h2 {
+    text-decoration: underline;
+    font-size: 35px;
+    text-align: center;
+}
+div#przycisk {
+    font-size: 20px;
+    font-weight: bold;
+    width: 300px;
+    background-color: wheat;
+    margin: auto;
+    margin-top: 15px;
+}
+footer {
+    background-color: lightsteelblue;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+}

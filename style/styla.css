@@ -1,0 +1,77 @@
+body {
+    background-image: url("tlo.jpg");
+}
+header {
+    color: wheat;
+    text-align: center;
+    font-size: 18px;
+}
+
+form {
+    -webkit-box-shadow: 32px 32px 7px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 32px 32px 7px -1px rgba(0,0,0,0.75);
+    box-shadow: 32px 32px 7px -1px rgba(0,0,0,0.75);
+    background-color: cadetblue;
+    width: auto;
+    padding: 40px;
+    margin-left: 200px;
+    margin-right: 1000px;
+    margin-top: auto;
+    text-align: center;
+}
+
+input[type=text] {
+    width: 300px;
+    background-color: gainsboro;
+    color: #666;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px; 
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+input[type=submit] {
+    width: 300px;
+    background-color: #36b03c;
+    font-size: 20px;
+    color: white;
+    padding: 15px 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 2px;
+
+}
+
+.wynik {
+    -webkit-box-shadow: 32px 32px 7px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 32px 32px 7px -1px rgba(0,0,0,0.75);
+    box-shadow: 32px 32px 7px -1px rgba(0,0,0,0.75);
+    background-color: cadetblue;
+    width: auto;
+    padding: 40px;
+    margin-left: 1000px;
+    margin-right: 200px;
+    text-align: center;
+    color: wheat;
+    float: left;
+}
+
+footer {
+    -webkit-box-shadow: 32px 32px 7px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 32px 32px 7px -1px rgba(0,0,0,0.75);
+    box-shadow: 32px 32px 7px -1px rgba(0,0,0,0.75);
+    background-color: cadetblue;
+    width: auto;
+    padding: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: auto;
+    text-align: center;
+    color: wheat;
+    font-size: larger;
+    float: left;
+}
